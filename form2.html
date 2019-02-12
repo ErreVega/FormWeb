@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+			<link href="estiloFormulario.css" rel="stylesheet">
+	<meta charset="UTF-8">
+		<title>Formulario</title>
+	</head>
+
+	<body>
+		<header>
+			<h2>Aula Virtual</h2>
+			<h3>Lenguaje de Marcas</h3>
+		</header>
+
+		<aside>
+			<nav>
+				<ul>
+					<li><a href="form.html">Inicio</a></li>
+					<li><a href="">Tema 1</a></li>
+					<li><a href="">Tema 2</a></li>
+					<li><a href="ayuda.html">Ayuda</a></li>
+					<li><a href="form2.html">Formulario</a></li>
+
+				</ul>
+			</nav>
+		</aside>
+
+		<main>
+			<form action="https://www.w3schools.com/action_page.php" method="post">
+				<fieldset id="primero">
+					<legend>Campos 1</legend>
+					<label for="multilinea">Cuadro de texto multilinea</label>
+					<textarea id="multilinea" name="multilinea">Introduce tu texto</textarea>
+					<label for="numeros">Numeros. min 2, max 10</label>
+					<input id="numeros" max="10" min="2" name="numeros" type="number">
+				</fieldset>
+				<fieldset id="segundo">
+					<legend>Campos2</legend>
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email">
+				</fieldset>
+
+			</form>
+
+
+
+		</main>
+
+
+
+		<footer>
+			<p>IES Clara del Rey. @Autor Rubén Vega</p>
+		</footer>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+header{
+	text-align: center;
+	background-color: lightgreen;
+	pading:20px;
+	margin: -20px;
+	min-widht: 80vh;
+}
+aside {
+	float: left;
+	width: 180px;
+	min-height: 80vh ;
+	padding: 20px;
+	background-color: lightblue;
+	margin-left: -20px;
+ 
+ 
+}
+a:visited {
+	color:green;
+}
+a:hover{
+	text-align: center;
+}
+
+button{
+	color: black;
+	background-color: lightgreen;
+	border: 0;
+	border-radius: 8px;
+ 	transition-duration: 0.1s;
+	padding: 15px;
+	}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:active {
+  background-color: grey;
+  transform: translateY(2px);
+}
+main{
+  	margin-left: 215px;
+  	margin-top: 30px;
+  	min-height: 80vh ;
+  	
+	pading:20px;
+}
+footer{
+	pading: 20px;
+	clear: both; 
+	background-color:lightgreen;
+	width :110%;
+	text-align: center;
+	margin-left: -20px;
+	margin-right: 20px;
+	
+	
+}
